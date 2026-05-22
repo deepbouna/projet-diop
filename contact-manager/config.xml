@@ -1,11 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<<<<<<< HEAD
-<widget id="com.awa.imc" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>ImcCalculator</name>
-=======
 <widget id="com.monapp.contacts" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ContactManager</name>
->>>>>>> e929b42d945b2bbfeefb0d7801923fd366d623b0
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
