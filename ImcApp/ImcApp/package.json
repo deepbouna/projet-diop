@@ -1,0 +1,37 @@
+{
+<<<<<<< HEAD
+  "name": "com.awa.imc",
+  "displayName": "ImcCalculator",
+=======
+  "name": "com.monapp.contacts",
+  "displayName": "ContactManager",
+>>>>>>> e929b42d945b2bbfeefb0d7801923fd366d623b0
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+<<<<<<< HEAD
+    "cordova-android": "^15.0.0",
+=======
+>>>>>>> e929b42d945b2bbfeefb0d7801923fd366d623b0
+    "cordova-browser": "^7.0.0"
+  },
+  "cordova": {
+    "platforms": [
+<<<<<<< HEAD
+      "browser",
+      "android"
+=======
+      "browser"
+>>>>>>> e929b42d945b2bbfeefb0d7801923fd366d623b0
+    ]
+  }
+}
