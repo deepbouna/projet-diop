@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>ToDo List App</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <form>
+                <label for="task">Ajouter une tâche</label>
+                <input type="text" id="task">
+                <input type="button" value="Ajouter" onclick="ajouterTache()">
+                <input type="button" value="Réinitialiser" onclick="reinitialiser()">
+            </form>
+
+            <!-- Compartiment En cours -->
+            <div class="section-header en-cours-header">
+                <span class="section-icon">⏳</span>
+                <span>En cours</span>
+                <span class="badge" id="badgeEnCours">3</span>
+            </div>
+            <ul id="taskList" data-role="listview" data-inset="true">
+                <li>Tâche 1</li>
+                <li>Tâche 2</li>
+                <li>Tâche 3</li>
+            </ul>
+
+            <!-- Compartiment Terminées -->
+            <div class="section-header termine-header">
+                <span class="section-icon">✅</span>
+                <span>Terminées</span>
+                <span class="badge" id="badgeTermine">0</span>
+            </div>
+            <ul id="taskListTermine" data-role="listview" data-inset="true">
+            </ul>
+
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>M2 &copy; 2026</h1>
+        </div>
+    </div>
+</body>
+</html>
